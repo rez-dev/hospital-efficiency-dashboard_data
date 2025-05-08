@@ -1,14 +1,14 @@
-hospital_id,hospital_fns_id,region_id,hospital_name_y,hospital_name_x,latitud,longitud
+hospital_id,hospital_fns_id,region_id,hospital_name,hospital_alternative_name,latitud,longitud
 101100,103,15,Hospital Dr. Juan Noé Crevanni (Arica),Hospital Doctor Juan Noé,-18.4827,-70.3126
 102100,203,1,Hospital Dr. Ernesto Torres Galdames (Iquique),Hospital Iquique,-20.2139,-70.1383
+201319,204,1,Hospital de Alto Hospicio,Hospital de Alto Hospicio,-20.2948,-70.0971
 103100,303,2,Hospital Dr. Leonardo Guzmán (Antofagasta),Hospital de Antofagasta,-23.6597,-70.3959
-103101,304,2,Hospital Dr. Carlos Cisternas (Calama),Hospital de Calama,-22.4450,-68.9181
+103101,304,2,Hospital Dr. Carlos Cisternas (Calama),Hospital de Calama,-22.445,-68.9181
 103102,305,2,Hospital Dr. Marcos Macuada (Tocopilla),Hospital de Tocopilla,-22.0882,-70.1929
 103103,306,2,Hospital 21 de Mayo (Taltal),Hospital de Taltal,-25.4036,-70.4869
 103104,307,2,Hospital de Mejillones,Hospital de Mejillones,-23.0931,-70.4575
 104100,403,3,Hospital San José del Carmen (Copiapó),Hospital Regional de Copiapó,-27.3668,-70.3417
 104101,404,3,Hospital Dr. Jerónimo Méndez Arancibia (Chañaral),Hospital de Chañaral,-26.3442,-70.6071
-104102,405,3,Hospital Dr. Florencio Vargas (Diego de Almagro),Hospital Diego de Almagro,-26.3799,-70.2974
 104103,406,3,Hospital Provincial del Huasco Monseñor Fernando Ariztía Ruiz (Vallenar),Hospital de Vallenar,-28.5765,-70.3578
 104104,407,3,Hospital Dr. Manuel Magalhaes Medling (Huasco),Hospital de Huasco,-28.4568,-70.2929
 105100,503,4,Hospital San Juan de Dios (La Serena),Hospital La Serena,-29.9065,-70.2432
@@ -117,6 +117,7 @@ hospital_id,hospital_fns_id,region_id,hospital_name_y,hospital_name_x,latitud,lo
 121120,17014,9,Hospital de Loncoche,Hospital Loncoche,-39.3702,-72.6311
 121112,17015,9,Hospital de Vilcún,Hospital Vilcún,-38.6547,-72.2248
 121109,17016,9,Hospital Dr. Hernán Henríquez Aravena (Temuco),Hospital Temuco,-38.7335,-72.5963
+200717,17017,9,Complejo Asistencial Padre las Casas,Complejo Asistencial Padre Las Casas,-38.7676,-72.6156
 122100,1803,14,Hospital Clínico Regional (Valdivia),Hospital de Valdivia,-39.8099,-73.2459
 122101,1804,14,Hospital de Corral,Hospital de Corral,-39.8826,-73.4306
 122102,1805,14,Hospital de Los Lagos,Hospital de Los Lagos,-39.8561,-72.8254
@@ -129,7 +130,6 @@ hospital_id,hospital_fns_id,region_id,hospital_name_y,hospital_name_x,latitud,lo
 123103,1904,10,Hospital de Puerto Octay,Hospital Puerto Octay,-40.9736,-72.9002
 123101,1905,10,Hospital de Purranque,Hospital Purranque,-40.9074,-73.1689
 123102,1906,10,Hospital de Río Negro,Hospital de Río Negro,-40.7839,-73.2163
-123104,1907,10,Hospital Misión San Juan de la Costa,Hospital Misión San Juan de la Costa,-40.5785,-73.3772
 123105,1908,10,Hospital del Perpetuo Socorro de Quilacahuín,Hospital del Perpetuo Socorro de Quilacahuín,-40.7554,-73.4516
 124130,2003,10,Hospital de Calbuco,Hospital Calbuco,-41.7726,-73.1315
 124120,2005,10,Hospital de Fresia,Hospital de Fresia,-41.1517,-73.4081
@@ -156,8 +156,11 @@ hospital_id,hospital_fns_id,region_id,hospital_name_y,hospital_name_x,latitud,lo
 112104,2308,13,Instituto de Neurocirugía Dr. Alfonso Asenjo,Instituto de Neurocirugía,-33.4384,-70.6492
 112105,2309,13,Instituto Nacional de Rehabilitación Infantil Presidente Pedro Aguirre Cerda,Instituto Pedro Aguirre Cerda,-33.4285,-70.6498
 112107,23010,13,Hospital Hanga Roa (Isla De Pascua),Hospital de Hanga Roa,-27.1501,-109.4209
+114104,23011,13,Hospital Metropolitano (Ex Militar),Hospital Metropolitano de Santiago,-33.4188,-70.6051
+111195,2405,13,Hospital de Urgencia Asistencia Pública Dr. Alejandro del Río,Hospital De Urgencia Asistencia Publica,-33.4442,-70.6385
 111100,2404,13,Hospital Clínico San Borja-Arriarán (Santiago - Santiago),Hospital Clínico San Borja Arriaran,-33.4566,-70.6495
 111101,2406,13,Hospital Clínico Metropolitano El Carmen Doctor Luis Valentín Ferrada,Hospital El Carmen,-33.5089,-70.7552
+111351,3001,13,Centro de Referencia de Salud de Maipú,Centro de Referencia de Salud Maipú,-33.5116,-70.7603
 113100,2503,13,Hospital Barros Luco Trudeau (Santiago - San Miguel),Hospital Barros Luco Trudeau,-33.4866,-70.6614
 113160,2504,13,Hospital de Enfermedades Infecciosas Dr. Lucio Córdova (Santiago - San Miguel),Hospital Enfermedades Infecciosas,-33.4984,-70.6529
 113130,2505,13,Hospital Dr. Exequiel González Cortés (Santiago - San Miguel),Hospital Exequiel González Cortés,-33.5013,-70.6541
@@ -176,13 +179,13 @@ hospital_id,hospital_fns_id,region_id,hospital_name_y,hospital_name_x,latitud,lo
 110120,2708,13,Hospital Dr. Félix Bulnes Cerda (Santiago - Quinta Normal),Hospital Félix Bulnes,-33.4358,-70.6867
 110100,2709,13,Hospital San Juan de Dios (Santiago - Santiago),Hospital San Juan de Dios,-33.4378,-70.6632
 110110,27010,13,Instituto Traumatológico Dr. Teodoro Gebauer,Instituto Traumatológico,-33.4413,-70.6638
-114101,2805,13,Complejo Hospitalario Dr. Sótero del Río (Santiago - Puente Alto),Hospital Sotero del Río,-33.5847,-70.5782
-114102,2806,13,Hospital San José de Maipo,Hospital San José de Maipo,-33.6764,-70.3508
-114105,2807,13,Hospital Clínico Metropolitano La Florida Dra. Eloisa Díaz Inzunza,Hospital La Florida,-33.5208,-70.5994
-114103,3001,13,Hospital Padre Alberto Hurtado (San Ramón),Hospital Padre Alberto Hurtado,-33.5119,-70.6446
-111351,3101,13,Centro de Referencia de Salud de Maipú,Centro de Referencia de Salud Maipú,-33.5116,-70.7603
-133150,3302,10,Hospital de Castro,Hospital Castro,-42.4794,-73.7659
-133165,3303,10,Hospital de Quellón,Hospital Quellón,-43.1171,-73.6256
-133160,3304,10,Hospital Comunitario de Achao,Hospital Achao,-42.4806,-73.4826
-133170,3305,10,Hospital de Queilén,Hospital Queilen,-42.8825,-73.4697
-133155,3306,10,Hospital de Ancud,Hospital Ancud,-41.8703,-73.8222
+114101,2803,13,Complejo Hospitalario Dr. Sótero del Río (Santiago - Puente Alto),Hospital Sotero del Río,-33.5847,-70.5782
+114102,2804,13,Hospital San José de Maipo,Hospital San José de Maipo,-33.6764,-70.3508
+114105,2805,13,Hospital Clínico Metropolitano La Florida Dra. Eloisa Díaz Inzunza,Hospital La Florida,-33.5208,-70.5994
+114103,2807,13,Hospital Padre Alberto Hurtado (San Ramón),Hospital Padre Alberto Hurtado,-33.5119,-70.6446
+133150,3202,10,Hospital de Castro,Hospital Castro,-42.4794,-73.7659
+133165,3203,10,Hospital de Quellón,Hospital Quellón,-43.1171,-73.6256
+133160,3204,10,Hospital Comunitario de Achao,Hospital Achao,-42.4806,-73.4826
+133170,3205,10,Hospital de Queilén,Hospital Queilen,-42.8825,-73.4697
+133155,3206,10,Hospital de Ancud,Hospital Ancud,-41.8703,-73.8222
+123104,1907,10,Hospital Futa Sruka Lawenche Kunko Mapu Mo,Hospital Misión San Juan de la Costa,-40.5785,-73.3772
